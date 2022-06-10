@@ -17,7 +17,7 @@ title = "Raúl Sánchez"
   title = "Hey 👋 I am Raúl"
   tagline = "The 1% Of The 1%"
   description = "I am a student of vocational training of network computer systems administrator."
-  contact = "raulsanchezzt@duck.com"
+  contact = "mailto:raulsanchezzt@duck.com"
 
 [[params.homepage.projects]]
   url = "https://raulsanchezzt.gitbook.io/hack-the-box/"
