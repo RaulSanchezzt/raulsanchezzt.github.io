@@ -1,0 +1,74 @@
+theme = "showfolio"
+languageCode = "en-us"
+baseurl = "https://raulsanchezzt.github.io"
+title = "Raúl Sánchez"
+
+[params]
+  name = "Raúl Sánchez's portfolio"
+  description = "My personal portfolio."
+  author = "Raúl Sánchez"
+  authorEmail = "raulsanchezzt@duck.com"
+  authorImage = "/photo.png"
+  autoDarkMode = true
+  copyright = "Copyright © 2022 - Raúl Sánchez · All rights reserved"
+  favicon = "/favicon.png"
+
+[params.homepage]
+  title = "Hey 👋 I am Raúl"
+  tagline = "The 1% Of The 1%"
+  description = "I am a student of vocational training of network computer systems administrator."
+  contact = "raulsanchezzt@duck.com"
+
+[[params.homepage.projects]]
+  url = "https://raulsanchezzt.gitbook.io/hack-the-box/"
+  title = "📦️ Hack The Box"
+  subtitle = "Blog, Cybersecurity"
+  description = "My personal blog where I write about how I compromise Hack The Box machines in detail."
+
+[[params.homepage.projects]]
+  url = "https://github.com/RaulSanchezzt/kali-bspmw"
+  title = "🖥️ Kali-bspwm"
+  subtitle = "Linux, Window Manager"
+  description = "Script written in bash to configure the desktop environment with the bspwm tiling window manager automatically. Also other tools like polybar, rofi, kitty terminal and neovim are installed."
+
+[[params.homepage.projects]]
+  url = "https://github.com/RaulSanchezzt/"
+  title = "💾 Other projects"
+  subtitle = "Github"
+  description = "You can find all the other projects I made on Github!"
+
+[params.homepage.resume]
+  skills = [ 
+  "Bash, Python, SQL, Git, Docker.",
+  "Networks and Operating Systems.",
+  "Use of Linux, Virtualization and Data Bases.",  
+  "Agile development and team work."
+  ]
+
+[[params.homepage.resume.work]]
+   name = "Ecomputer"
+   role = "Assembly and Maintenance of Computers"
+   duration = "March 2021 - June 2021"
+
+[[params.homepage.resume.courses]]
+  name = "Higher Technician in Computer Network Systems Management"
+  provider = "Integrated Polytechnic Centre ETI"
+  duration = "September 2021 - Present"
+
+[[params.homepage.resume.courses]]
+  name = "Technician in Microcomputer Systems and Networks"
+  provider = "Integrated Polytechnic Centre ETI"
+  duration = "September 2019 - March 2021"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/RaulSanchezzt"
+  linkedin = "https://www.linkedin.com/in/RaulSanchezzt"
+  github = "https://github.com/RaulSanchezzt"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
