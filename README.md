@@ -2,41 +2,36 @@
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/RaulSanchezzt/raulsanchezzt.github.io.git # https
+git clone https://github.com/RaulSanchezzt/raulsanchezzt.github.io.git
 ```
 or
 ```bash
-git clone git@github.com:RaulSanchezzt/raulsanchezzt.github.io.git # ssh
+git clone git@github.com:RaulSanchezzt/raulsanchezzt.github.io.git
 ```
 
-2. Clone the theme repository.
+2. Install the theme from the root of your Hugo site.
+
+> Following the [instructions](https://github.com/apvarun/showfolio-hugo-theme#get-the-theme) of the theme.
 
 ```bash
-git clone https://github.com/apvarun/showfolio-hugo-theme.git # https
+git clone https://github.com/apvarun/showfolio-hugo-theme.git themes/showfolio
 ```
 or
 ```bash
-git clone https://github.com/apvarun/showfolio-hugo-theme.git # ssh
+git submodule add https://github.com/apvarun/showfolio-hugo-theme.git themes/showfolio
 ```
-3. Move the assets folder to the page theme folder of the web.
+
+3. Install postcss-cli globally
 
 ```bash
-mv showfolio-hugo-theme/assets/ raulsanchezzt.github.io/themes/showfolio
+npm install -g postcss-cli
 ```
-
-4. Remove the theme's folder.
 
 ```bash
-rm -rf showfolio-hugo-theme
+npm install
 ```
 
-5. Change the directory to the website folder.
-
-```bash
-cd raulsanchezzt.github.io
-```
-
-6. Start your local server
+4. Start your local server
 
 ```bash
 hugo serve
