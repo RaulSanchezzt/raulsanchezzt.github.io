@@ -26,15 +26,19 @@
     </div>
 
     <ul id="nav-menu" class="flex w-auto mt-0 space-x-2">
-      <li>
-        <a href="https://es.raulsanchezzt.com" class="hover:text-blue-800 dark:hover:text-blue-300" target="_blank">🇪🇸 ES</a>
-      </li>
-      <li> | </li> 
       {{ with .Site.GetPage "/about" }}
       <li>
         <a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">{{ .Title }}</a>
       </li>
       {{ end }}
+      <li> | </li> 
+      <div>
+        <ul class="language-list">
+            {{ range $.Site.Home.AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
     </ul>
   </nav>
 </header>

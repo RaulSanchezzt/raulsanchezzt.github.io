@@ -1,9 +1,9 @@
 <section class="my-4 max-w-5xl mx-auto">
-  <div class="text-3xl font-bold mb-8">Resume &emsp;<a href="/about" style="opacity: 0.5;" alt="Read more">❯</a></div>
+  <div class="text-3xl font-bold mb-8"> {{ i18n "resume" }} &emsp;<a href="/about" style="opacity: 0.5;" alt="Read more">❯</a></div>
 
   <div class="grid grid-cols-2 gap-4">
     <div>
-      <div class="text-2xl font-semibold mb-4">Work Experience</div>
+      <div class="text-2xl font-semibold mb-4"> {{ i18n "work" }} </div>
       {{ range .Site.Params.homepage.resume.work}}
       <div>
         <div class="text-xl font-bold my-2">{{.name}}</div>
@@ -15,7 +15,7 @@
 
     <!-- Education -->
     <div>
-		<div class="text-2xl font-semibold mb-4">Education</div>
+		<div class="text-2xl font-semibold mb-4"> {{ i18n "education" }} </div>
 		{{ range .Site.Params.homepage.resume.courses}}
 		<div>
 		  <div class="text-xl font-bold my-2">{{.name}}</div>
@@ -27,7 +27,7 @@
 
     <!-- Skills -->
     <div>
-      <div class="text-2xl font-semibold mb-4">Skills</div>
+      <div class="text-2xl font-semibold mb-4"> {{ i18n "skills" }} </div>
       {{ range .Site.Params.homepage.resume.skills}}
       <div class="text-lg font-light my-2">{{.}}</div>
       {{end}}
