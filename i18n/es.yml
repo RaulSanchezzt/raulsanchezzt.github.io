@@ -1,0 +1,29 @@
+- id: contact
+  translation: "Contacto"
+
+- id: looking
+  translation: "¿Quieres contactar conmigo?"
+
+- id: lets_chat
+  other: "Hablemos! 📨"
+
+- id: built
+  translation: "Hecho con"
+
+- id: and
+  translation: "y"
+
+- id: projects
+  translation: "Proyectos"
+
+- id: resume
+  translation: "Resumen"
+
+- id: work
+  translation: "Experiencia laboral"
+
+- id: education
+  translation: "Educación"
+
+- id: skills
+  translation: "Habilidades"

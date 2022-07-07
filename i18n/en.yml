@@ -1,0 +1,29 @@
+- id: contact
+  translation: "Contact me"
+
+- id: looking
+  translation: "Looking forward to talk with me?"
+
+- id: lets_chat
+  other: "Let's chat 📨"
+
+- id: built
+  translation: "Built with"
+
+- id: and
+  translation: "and"
+
+- id: projects
+  translation: "Projects"
+
+- id: resume
+  translation: "Resume"
+
+- id: work
+  translation: "Work Experience"
+
+- id: education
+  translation: "Education"
+
+- id: skills
+  translation: "Skills"
