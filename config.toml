@@ -2,6 +2,8 @@ theme = "showfolio"
 languageCode = "en-us"
 baseurl = "https://raulsanchezzt.github.io"
 title = "Raúl Sánchez"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [params]
   name = "Raúl Sánchez's portfolio"
@@ -15,7 +17,7 @@ title = "Raúl Sánchez"
 
 [params.homepage]
   title = "Hey 👋 I am Raúl"
-  tagline = "The 1% Of The 1%"
+  tagline = "`If you don't fail, you're not even trying.´"
   description = "I am a student of vocational training of network computer systems administrator."
   contact = "mailto:raulsanchezzt@duck.com"
 
@@ -64,6 +66,7 @@ title = "Raúl Sánchez"
   twitter = "https://twitter.com/RaulSanchezzt"
   linkedin = "https://www.linkedin.com/in/RaulSanchezzt"
   github = "https://github.com/RaulSanchezzt"
+  email = "mailto:raulsanchezzt@duck.com"
 
 [build]
   writeStats = true
@@ -72,3 +75,66 @@ title = "Raúl Sánchez"
 [markup]
   [markup.highlight]
     style = "dracula"
+
+[languages]
+  [languages.en]
+    title = "Raúl Sánchez"
+    languageName = "🇺🇸 EN"
+    weight = 1
+  [languages.es]
+    title = "Raúl Sánchez"
+    languageName = "🇪🇸 ES"
+    weight = 2
+      
+      [languages.es.params.homepage]
+        title = "Hola! 👋 Soy Raúl"
+        tagline = "`Si no fallas, ni siquiera lo estás intentando.´"
+        description = "Soy un estudiante de grado superior sobre Administración de Sistemas Informáticos en Red."
+        contact = "mailto:raulsanchezzt@duck.com"
+        
+      [[languages.es.params.homepage.projects]]
+        url = "https://raulsanchezzt.gitbook.io/hack-the-box/"
+        title = "📦️ Hack The Box"
+        subtitle = "Blog, Ciberseguridad"
+        description = "Mi blog personal donde escribo sobre como comprometo las máquinas de Hack The Box machines en detalle."
+
+      [[languages.es.params.homepage.projects]]
+        url = "https://github.com/RaulSanchezzt/kali-bspmw"
+        title = "🖥️ Kali-bspwm"
+        subtitle = "Linux, Gestor de Ventanas"
+        description = "Script escrito en bash para configurar el entorno de escritorio con un gestor de ventanas en mosaico como bspwm automáticamente. Además se instalan otras herramientas como polybar, rofi, kitty terminal y neovim."
+
+      [[languages.es.params.homepage.projects]]
+        url = "https://github.com/RaulSanchezzt/"
+        title = "💾 Otros proyectos"
+        subtitle = "Github"
+        description = "Puedes encontrar todos los demás proyectos que he hecho en Github!"
+
+      [languages.es.params.homepage.resume]
+        skills = [ 
+        "Bash, Python, SQL, Git, Docker.",
+        "Redes y Sistemas Operativos.",
+        "Uso de Linux, Virtualizacion y Bases de Datos.",  
+        "Desarrollo ágil y trabajo en equipo."
+        ]
+
+      [[languages.es.params.homepage.resume.work]]
+        name = "Ecomputer"
+        role = "Montaje y Mantenimiento de Ordenadores"
+        duration = "Marzo 2021 - Junio 2021"
+
+      [[languages.es.params.homepage.resume.courses]]
+        name = "Técnico Superior en Administración de Sistemas Informáticos en Red"
+        provider = "Centro Integrado Politécnico ETI"
+        duration = "Septiembre 2021 - Presente"
+
+      [[languages.es.params.homepage.resume.courses]]
+        name = "Técnico en Sistemas Microinformáticos y Redes"
+        provider = "Centro Integrado Politécnico ETI"
+        duration = "Septiembre 2019 - Marzo 2021"
+
+      [languages.es.params.homepage.social]
+        twitter = "https://twitter.com/RaulSanchezzt"
+        linkedin = "https://www.linkedin.com/in/RaulSanchezzt"
+        github = "https://github.com/RaulSanchezzt"
+        email = "mailto:raulsanchezzt@duck.com"

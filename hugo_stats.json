@@ -23,6 +23,7 @@
       "nav",
       "p",
       "path",
+      "polyline",
       "rect",
       "script",
       "section",
@@ -53,6 +54,8 @@
       "dark:text-gray-600",
       "duration-200",
       "duration-500",
+      "feather",
+      "feather-mail",
       "flex",
       "flex-1",
       "flex-col",
@@ -76,6 +79,7 @@
       "items-center",
       "justify-between",
       "justify-center",
+      "language-list",
       "left-0",
       "left-1/2",
       "lg:mx-24",
@@ -152,10 +156,13 @@
       "z-0"
     ],
     "ids": [
+      "habilidades-personales",
+      "intereses",
       "interests",
       "nav-menu",
       "soft-skills",
-      "technologies"
+      "technologies",
+      "tecnologías"
     ]
   }
 }
