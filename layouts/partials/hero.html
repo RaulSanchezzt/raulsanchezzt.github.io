@@ -1,7 +1,7 @@
 <section class="p-4 flex flex-col items-center">
   {{ $authorName := .Site.Params.author }}
   {{ with .Site.Params.authorImage }}
-  <div class="w-48 h-48 rounded-full mb-6 bg-red-400">
+  <div class="w-48 h-48 rounded-full mb-6 bg-blue-1000">
 	<img src="{{.}}" class="w-full p-1 h-full object-contain" alt="{{ $authorName }}" />
   </div>
   {{ end }}
