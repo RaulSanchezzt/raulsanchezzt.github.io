@@ -1,6 +1,6 @@
 theme = "showfolio"
 languageCode = "en-us"
-baseurl = "https://raulsanchezzt.github.io"
+baseurl = "https://raulsanchezzt.com"
 title = "Raúl Sánchez"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
