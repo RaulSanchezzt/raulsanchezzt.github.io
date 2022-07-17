@@ -2,11 +2,11 @@
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/RaulSanchezzt/raulsanchezzt.com.git
+git clone https://github.com/RaulSanchezzt/raulsanchezzt.github.git
 ```
 or
 ```bash
-git clone git@github.com:RaulSanchezzt/raulsanchezzt.com.git
+git clone git@github.com:RaulSanchezzt/raulsanchezzt.github.git
 ```
 
 2. Install the theme from the root of your Hugo site.
